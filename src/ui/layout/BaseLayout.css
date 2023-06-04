@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & .content {
+    height: calc(100vh - var(--headerHeight));
+    padding: var(--gap);
+  }
+}
